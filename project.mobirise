@@ -143,7 +143,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<p>Meredith Axelrod is multi-instrumentalist and vocalist who envisions the limitless potential of early twentieth century music, whether it be Ragtime, Music Hall, Pop Standard, Boogie Woogie, Tin Pan Alley, String band, Jazz, Country, Blues or even Jug Band music, and embodies the spirit that brought the music into existence and drove it ahead.  Ms. Axelrod learned to sing and play by listening to how folks did it a century ago – through the medium of cylinders, 78-rpm records, and from sheet music.</p>",
+          "text1": "<p>Meredith Axelrod is multi-instrumentalist and vocalist who envisions the limitless potential of early twentieth century music, whether it be Ragtime, Music Hall, Pop Standard, Boogie Woogie, Tin Pan Alley, String band, Jazz, Country, Blues or even Jug Band music, and embodies the spirit that brought the music into existence and drove it ahead.&nbsp;</p>",
           "text2": "<p>There’s nothing to dust off in her bag of reclaimed songs, as her resourceful arrangements and heartfelt renditions prove. In her care, the songs are unmistakably inspired, infectious and relevant.  Meredith Axelrod is an example to herald, someone who has found possibility and joy in  the treasures of cultural folklore.</p>"
         },
         {
@@ -316,26 +316,25 @@
             "Theme"
           ],
           "_name": "msg-box1",
-          "_anchor": "msg-box1-i",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": "0",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
-            "showText": true,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "&nbsp;",
@@ -344,7 +343,8 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "H3 {\n\tfont-size: 30px;\n}\nDIV {\n\tfont-size: 30px;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "msg-box1-i"
         },
         {
           "_tags": [
