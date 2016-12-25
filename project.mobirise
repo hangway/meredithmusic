@@ -354,6 +354,11 @@
             "Theme"
           ],
           "_name": "contacts2",
+          "_styles": {
+            "UL": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "contacts2-m",
           "_params": {
             "paddingTop": 3,
@@ -374,12 +379,7 @@
             }
           },
           "text1": "<strong>Address</strong><br>3049 20th St, San Francisco<br>CA 94110<br><br><br>\n<strong>Contacts</strong><br>\nVenue Performance Booking:<br>roadwarrioragency@gmail.com<br>\nmeredithanthraxelrod@gmail.com<br><br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"https://meredithaxelrod.com/\">Meredith's Wordpress Blog</a></li><li><a href=\"https://www.youtube.com/channel/UC3iKTFblJvkeTkF_JgdzX0A\">Meredith's Youtube Channel</a></li></ul>",
-          "_styles": {
-            "UL": {
-              "color": "#efefef"
-            }
-          }
+          "text2": "<strong>Links</strong><ul><li><a href=\"https://meredithaxelrod.com/\">Meredith's Wordpress Blog</a></li><li><a href=\"https://www.youtube.com/channel/UC3iKTFblJvkeTkF_JgdzX0A\">Meredith's Youtube Channel</a></li></ul>"
         },
         {
           "_name": "footer1",
