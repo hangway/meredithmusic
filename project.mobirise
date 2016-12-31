@@ -26,7 +26,9 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -45,42 +47,36 @@
             "Theme"
           ],
           "_name": "header4",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          },
-          "_anchor": "header4-0",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
             "showArrow": true,
+            "contentAlign": "right",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/5VP2I_WTk6E?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": "0.3"
           },
           "title": "Meredith Axelrod",
           "text": "“Meredith Axelrod sings and plays guitar as if she really returned to the pre-mic days. We’re not talking revisionist copy of so and so from way back when talking as if we plucked an original out of the era and time-traveled…” <br><br>– JL Stiles",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full mbr-section-with-arrow\" data-bg-video=\"https://www.youtube.com/embed/5VP2I_WTk6E?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.3; background-color: rgb(0, 0, 0);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-2 text-xs-right\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"12\">Meredith Axelrod</h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"13\">“Meredith Axelrod sings and plays guitar as if she really returned to the pre-mic days. We’re not talking revisionist copy of so and so from way back when talking as if we plucked an original out of the era and time-traveled…” <br><br>– JL Stiles</p>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\"><a href=\"#msg-box3-b\"><i class=\"mbr-arrow-icon\"></i></a></div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n.mbr-section-lead {\n\tfont-family: 'Open Sans', sans-serif;\n\ttext-align: left;\n}\n.mbr-section-title {\n\tfont-family: 'Open Sans', sans-serif;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "header4-0"
         },
         {
           "_inherit": "msg-box8",
@@ -155,6 +151,9 @@
             },
             "P": {
               "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
           "_tags": [
@@ -339,7 +338,7 @@
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "&nbsp;",
           "title": "Calendar<br><div><br></div><div><span style=\"font-weight: normal;\">Saturdays: Atlas Cafe 4-6 San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">December tour in Israel</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Saturday 1/28/2017 Amnesia 9:30pm San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">February tour to Pacific Northwest USA</span><br><br></div>",
-          "_customHTML": "<section class=\"mbr-info mbr-info-extra mbr-section mbr-section-md-padding\" style=\"background-color: rgb(242, 242, 242); padding-top: 0px; padding-bottom: 30px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n\n\n            \n\n\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-right-padding-md-up col-md-8 text-xs-center text-md-left\">\n                    <h2 class=\"mbr-info-subtitle mbr-section-subtitle mbr-editable-content\" code-editable-id=\"12\">&nbsp;</h2>\n                    <h3 class=\"mbr-info-title mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"13\">Calendar<br><div><br></div><div><span style=\"font-weight: normal;\">Saturdays: Atlas Cafe 4-6 San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">December tour in Israel</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Saturday 1/28/2017 <a href=\"http://amnesiathebar.com/\">Amnesia</a> 9:30pm San Francisco,CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">February tour to Pacific Northwest USA</span><br><br></div></h3>\n                </div>\n\n                <div class=\"mbr-table-cell col-md-4\">\n                    \n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-info mbr-info-extra mbr-section mbr-section-md-padding\" style=\"background-color: rgb(242, 242, 242); padding-top: 0px; padding-bottom: 30px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n\n\n            \n\n\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-right-padding-md-up col-md-8 text-xs-center text-md-left\">\n                    <h2 class=\"mbr-info-subtitle mbr-section-subtitle mbr-editable-content\" code-editable-id=\"10\">&nbsp;</h2>\n                    <h3 class=\"mbr-info-title mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"11\">Calendar<br><div><br></div><div><span style=\"font-weight: normal;\">Saturdays: Atlas Cafe 4-6 San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">December tour in Israel</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Saturday 1/28/2017 <a href=\"http://amnesiathebar.com/\">Amnesia</a> 9:30pm San Francisco,CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">February tour to Pacific Northwest USA</span><br><br></div></h3>\n                </div>\n\n                <div class=\"mbr-table-cell col-md-4\">\n                    \n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "H3 {\n\tfont-size: 30px;\n}\nDIV {\n\tfont-size: 20px;\n}\n",
