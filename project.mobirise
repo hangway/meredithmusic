@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 24,
+    "uniqCompNum": 25,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/music-128x128-66.png",
     "noImageResize": "",
@@ -311,39 +311,38 @@
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "msg-box1",
+          "_name": "extMsg-box4",
+          "_anchor": "extMsg-box4-o",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingTop": 3,
+            "paddingBottom": 2,
+            "bgText": "Annoucement",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#5e5546",
+            "bgTextSize": "200",
+            "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader11_bg.jpg",
+            "bgColor": "#3d3d3d",
             "bgColorRadio": true,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
-          "text": "&nbsp;",
-          "title": "Calendar<br><div><br></div><div><span style=\"font-weight: normal;\">Saturdays: Atlas Cafe 4-6 San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">December tour in Israel</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Saturday 1/28/2017 Amnesia 9:30pm San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">February tour to Pacific Northwest USA</span><br><br></div>",
-          "_customHTML": "<section class=\"mbr-info mbr-info-extra mbr-section mbr-section-md-padding\" style=\"background-color: rgb(242, 242, 242); padding-top: 0px; padding-bottom: 30px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n\n\n            \n\n\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-right-padding-md-up col-md-8 text-xs-center text-md-left\">\n                    <h2 class=\"mbr-info-subtitle mbr-section-subtitle mbr-editable-content\" code-editable-id=\"10\">&nbsp;</h2>\n                    <h3 class=\"mbr-info-title mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"11\">Calendar<br><div><br></div><div><span style=\"font-weight: normal;\">Saturdays: Atlas Cafe 4-6 San Francisco, CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">December tour in Israel</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Saturday 1/28/2017 <a href=\"http://amnesiathebar.com/\">Amnesia</a> 9:30pm San Francisco,CA</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">February tour to Pacific Northwest USA</span><br><br></div></h3>\n                </div>\n\n                <div class=\"mbr-table-cell col-md-4\">\n                    \n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": "H3 {\n\tfont-size: 30px;\n}\nDIV {\n\tfont-size: 20px;\n}\n",
-          "_customTemplate": true,
-          "_anchor": "msg-box1-i"
+          "title": "Calendar",
+          "text": "Saturday 1/7/2017 Atlas Cafe 4-6pm SAN FRANCISCO, CA<br><br>Saturday 1/7/2017 Meredith Axelrod Trio at Speisekammer 8:30-11pm ALAMEDA, CA<br><br>Saturday 1/14/2017 Blind Boy Paxton, Meredith Axelrod &amp; Frank Fairfield at Viva Cantina BURBANK, CA<br><br>Saturday 1/28/2017 Amnesia 9:30pm SAN FRANCISCO, CA<br><br>Thursday 2/2/2017 Oddfellows Hall 7:30pm DAVIS, CA<br><br>February tour to Pacific Northwest USA<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>"
         },
         {
           "_tags": [
