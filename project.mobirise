@@ -17,12 +17,13 @@
         "textFont": "Open Sans",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
     "versionFirst": "3.10.4",
     "uniqCompNum": 25,
-    "versionPublish": "3.10.4",
+    "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/music-128x128-66.png",
     "noImageResize": "",
     "google-analytics": "",
@@ -309,40 +310,6 @@
           },
           "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
-        },
-        {
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extMsg-box4",
-          "_anchor": "extMsg-box4-o",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 2,
-            "bgText": "Annoucement",
-            "bgTextStyle": "Montserrat",
-            "bgTextColor": "#5e5546",
-            "bgTextSize": "200",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader11_bg.jpg",
-            "bgColor": "#3d3d3d",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.1,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "Calendar",
-          "text": "Saturday 1/7/2017 Atlas Cafe 4-6pm SAN FRANCISCO, CA<br><br>Saturday 1/7/2017 Meredith Axelrod Trio at Speisekammer 8:30-11pm ALAMEDA, CA<br><br>Saturday 1/14/2017 Blind Boy Paxton, Meredith Axelrod &amp; Frank Fairfield at Viva Cantina BURBANK, CA<br><br>Saturday 1/28/2017 Amnesia 9:30pm SAN FRANCISCO, CA<br><br>Thursday 2/2/2017 Oddfellows Hall 7:30pm DAVIS, CA<br><br>February tour to Pacific Northwest USA<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>"
         },
         {
           "_tags": [
